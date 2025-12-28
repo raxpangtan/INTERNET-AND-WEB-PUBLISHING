@@ -20,6 +20,15 @@
     width: 200px;
 }
 
+.Home, .Shop, .About, .Contact{
+    font-size: 18px;
+}
+
+.Home:hover, .Shop:hover, .About:hover, .Contact:hover{
+    color: rgb(161, 65, 250);
+    cursor: pointer;
+}
+
 
 .middle-section{
     display: flex;
@@ -67,7 +76,6 @@
     align-items: center;
     margin-right: 20px;
     width: 200px;
-
 }
 
 .Sign-Up{
@@ -76,18 +84,12 @@
     padding-bottom: 5px;
     padding-left: 7px;
     padding-right: 7px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-    background-color: transparent;
     color: black;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .Sign-Up:hover{
-    border-color: white;
-    background-color: white;
     color: rgb(161, 65, 250);
     transition: 0.15s;
 }
@@ -100,7 +102,7 @@
     background-color: transparent;
     color: black;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .Login:hover{
@@ -119,9 +121,6 @@ opacity: 0.4;
     color: black;
     cursor: pointer;
     font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 5px;
 }
 
 .Shopping-Cart{
@@ -133,25 +132,13 @@ opacity: 0.4;
 
 .cart-number{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -7px;
+    right: -7px;
     background-color: red;
     padding-bottom: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-top: 0px;
     border-radius: 10px;
     color: white;
-}
-
-.right-section a {
-    text-decoration: none;
-    color: inherit; 
-    display: flex;
-    align-items: center;
-}
-
-.Sign-Up {
-    border: 1px solid black;
-    border-radius: 4px; 
 }
